@@ -4,9 +4,9 @@ from collections import deque
 import numpy as np
 
 def main():
-    max_cals = parse_max_cals('day1_input.txt')
+    # max_cals = parse_max_cals('day1_input.txt')
+    sum_cals, max_cals = parse_3max('day1_input.txt')
     print('star 1 max calories:', max_cals)
-    sum_cals = parse_3max('day1_input.txt')
     print('star 2 top 3 calorie carrier sum:', sum_cals)
 
 def parse_max_cals(fname):
@@ -28,9 +28,9 @@ def parse_3max(fname):
             max_list = check_replace_min(max_list, current_cals)
             current_cals = 0
         else:
-            current_cals += float(line.strip())
+            current_cals += int(line.strip())
     sum_cals = np.sum(max_list)
-    return sum_cals
+    return sum_cals, max(max_list)
 
 def check_replace_min(max_list, new_val):
     min_ind = np.argmin(max_list)
