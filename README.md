@@ -11,3 +11,6 @@ Well, I had to create a dictionary. And then I had to make another dictionary. A
 
 ### Day 3 blog
 So I read about this ord magic from day 2 and I'm glad I did. Then star 2 was being difficult because I forgot how popping from a list actually worked. Feeling the rust.
+
+### Day 4 blog
+Meh
