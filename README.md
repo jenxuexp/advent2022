@@ -8,3 +8,6 @@ Pre-new year's resolution: I will not overthink star 1 to anticipate what I need
 
 ### Day 2 blog
 Well, I had to create a dictionary. And then I had to make another dictionary. And then I made yet another dictionary. I used to get a little salty about how much brent marin used nested defaultdicts, but now I realize (yet again) that brent knows what he's doing. Defaultdicts are amazing, although probably not necessary in this case. It saved me from copy pasting 12 new lines.
+
+### Day 3 blog
+So I read about this ord magic from day 2 and I'm glad I did. Then star 2 was being difficult because I forgot how popping from a list actually worked. Feeling the rust.
