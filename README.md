@@ -14,3 +14,6 @@ So I read about this ord magic from day 2 and I'm glad I did. Then star 2 was be
 
 ### Day 4 blog
 Meh
+
+### Day 5 blog
+I tried to be too clever in star 2 when I should have just brute forced it, then ended up brute forcing it anyway because I got annoyed. itertools islice is still a little confusing to me, and then I realized you have to turn it to a list anyway...blech. Maybe I should've just built my own list indexer from the beginning.
